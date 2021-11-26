@@ -39,7 +39,7 @@ const Data = [
     {
         questionText: 'Who Created Linux?',
         answerOptions: [
-            { answerText: 'Kevin Ryan', isCorrect: true },
+            { answerText: 'Kevin Ryan', isCorrect: false },
             { answerText: 'Jack Ma', isCorrect: false },
             { answerText: 'Linus Torvalds', isCorrect: true },
             { answerText: 'Michael Dell', isCorrect: false },
@@ -50,7 +50,7 @@ const Data = [
         answerOptions: [
             { answerText: 'Google', isCorrect: true },
             { answerText: 'Nokia', isCorrect: false },
-            { answerText: 'Samsung', isCorrect: true },
+            { answerText: 'Samsung', isCorrect: false },
             { answerText: 'Sony', isCorrect: false },
         ],
     },
