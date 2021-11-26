@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+/*  Main Div and Card   
+========================*/
+.main {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(17, 1, 4);
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 300px;
+    width: 450px;
+    border: 4px solid red;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 88px 5px rgb(143, 27, 6);
+    background-color: rgb(95, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'PT Sans Narrow', sans-serif;     */
+}
+
+/*   Score Section
+========================*/
+.score_section {
+    color: white;
+    font-weight: bolder;
+    font-size: 29px;
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
+    padding: 16px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* Questions and Counts  
+========================*/
+.question_section {
+    width: 50%;
+    height: 60%;
+    color: white;
+    border-right: 4px solid red;
+    box-sizing: border-box;
+}
+.question_count {
+    margin: 1em;
+    display: flex;
+}
+.question_count :first-child {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.question_count :nth-child(2) {
+    margin: 11px 0 0 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.question_text {
+    margin: 1em;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*   Answer Section
+========================*/
+
+.answer_section {
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: white;
+}
+
+.answer_section div {
+    border: 3px solid red;
+    margin: 1em;
+    padding: 5px;
+    border-radius: 7px 7px;
+    transition: 0.3s;
+}
+
+.answer_section div:hover{
+    background-color: rgb(165, 0, 0);
+}
